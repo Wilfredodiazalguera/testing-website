@@ -12,6 +12,7 @@ To run cypress:
 
 Run on UI mode -> npm run test
 Run on terminal -> npm run cypress
+After run on terminal you should run : npm run merge , to generate the report
 
 When you run on terminal it should generate a folder reporter, inside the folder there is a file called
 **************** mochawesomeFinal.html *******************************
