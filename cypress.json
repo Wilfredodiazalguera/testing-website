@@ -1,0 +1,21 @@
+{
+    "projectId": "konrad",
+    "viewportWidth": 1366,
+    "viewportHeight": 871,
+    "requestTimeout": 60000,
+    "env": {
+        "uat": "https://kgtravel438504128.wordpress.com/"
+    },
+    "defaultCommandTimeout": 12000,
+    "retries": {
+        "runMode": 1,
+        "openMode": 1
+    },
+    "reporter": "mochawesome",
+    "reporterOptions": {
+      "reportDir": "resultsMocha",
+      "overwrite": false,
+      "html": false,
+      "json": true
+    }
+}
