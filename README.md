@@ -1,4 +1,4 @@
-# testing-website
+# Testing-website
 
 Its a NodeJs project, so you need to have installed
 
@@ -8,12 +8,10 @@ Its a NodeJs project, so you need to have installed
 -install the dependencies (npm i)
 
 
-To run cypress:
+## To run cypress:
 
-Run on UI mode -> npm run test
-Run on terminal -> npm run cypress
-After run on terminal you should run : npm run merge , to generate the report
+-Run on UI mode -> npm run test
+-Run on terminal -> npm run cypress
+-Generate report -> npm run merge 
+-Open mochawesomeFinal.html on your browser (File is inside the reporter folder)
 
-When you run on terminal and execute "npm run merge" it should generate a folder reporter, inside the folder there is a file called
-**************** mochawesomeFinal.html *******************************
-Open on the browser to check the report
